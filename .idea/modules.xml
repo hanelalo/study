@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbo-pro/consumer/consumer.iml" filepath="$PROJECT_DIR$/dubbo-pro/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-pro/dubbo-pro.iml" filepath="$PROJECT_DIR$/dubbo-pro/dubbo-pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-pro/producer/producer.iml" filepath="$PROJECT_DIR$/dubbo-pro/producer/producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq-pro/rocketmq-consumer/rocketmq-consumer.iml" filepath="$PROJECT_DIR$/rocketmq-pro/rocketmq-consumer/rocketmq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq-pro/rocketmq-pro.iml" filepath="$PROJECT_DIR$/rocketmq-pro/rocketmq-pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq-pro/rocketmq-producer/rocketmq-producer.iml" filepath="$PROJECT_DIR$/rocketmq-pro/rocketmq-producer/rocketmq-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-pro/service-def/service-def.iml" filepath="$PROJECT_DIR$/dubbo-pro/service-def/service-def.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
+    </modules>
+  </component>
+</project>

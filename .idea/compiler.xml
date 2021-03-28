@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-def" />
+        <module name="producer" />
+        <module name="consumer" />
+        <module name="rocketmq-producer" />
+        <module name="rocketmq-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer" target="8" />
+      <module name="dubbo-pro" target="8" />
+      <module name="producer" target="8" />
+      <module name="rocket-producer" target="8" />
+      <module name="rocketmq-consumer" target="1.8" />
+      <module name="rocketmq-pro" target="8" />
+      <module name="rocketmq-producer" target="1.8" />
+      <module name="service-def" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rocket-producer" options="-parameters" />
+      <module name="rocketmq-consumer" options="" />
+      <module name="rocketmq-pro" options="-parameters" />
+    </option>
+  </component>
+</project>
